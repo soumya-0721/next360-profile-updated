@@ -256,7 +256,7 @@ export const panelMembers = [
       "https://www.linkedin.com/in/nithish-bachu-21b697233?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   },
   {
-    name: "Preeti",
+    name: "Aleti Preethi Reddy",
     role: "Front-End Developer | Programmer Analyst",
     photo: "/images/mentors/member-preeti.png",
     profile:
