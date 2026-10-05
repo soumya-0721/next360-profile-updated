@@ -248,6 +248,20 @@ export const panelMembers = [
     profile:
       "https://www.linkedin.com/in/sri-saiteja-annareddy?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
+  {
+    name: "Bachu Nithish",
+    role: "Software Engineer (Malware Researcher) · LTM",
+    photo: "/images/mentors/member-nithish.jpg",
+    profile:
+      "https://www.linkedin.com/in/nithish-bachu-21b697233?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+  },
+  {
+    name: "Preeti",
+    role: "Front-End Developer | Programmer Analyst",
+    photo: "/images/mentors/member-preeti.png",
+    profile:
+      "https://www.linkedin.com/in/aleti-preethi-15554923b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+  },
 ] as const;
 
 export const collaborators = [
