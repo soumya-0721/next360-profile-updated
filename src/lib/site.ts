@@ -262,6 +262,13 @@ export const panelMembers = [
     profile:
       "https://www.linkedin.com/in/aleti-preethi-15554923b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   },
+  {
+    name: "Kallepelli Meghashank",
+    role: "Azure Cloud Engineer · Accenture Solutions Private Limited",
+    photo: "/images/mentors/member-meghashank.png",
+    profile:
+      "https://www.linkedin.com/in/kallepelli-meghashank?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  },
 ] as const;
 
 export const collaborators = [
