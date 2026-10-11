@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 /*
   LinkedIn post block for institutional partner profiles.
 
@@ -14,9 +16,12 @@
 export function LinkedInUpdate({
   postUrl,
   embedUrl,
+  logo,
 }: {
   postUrl: string;
   embedUrl?: string;
+  /* Partner logo shown in the pending state so the block is never blank. */
+  logo?: string;
 }) {
   const hasPost = Boolean(postUrl);
   const hasEmbed = hasPost && Boolean(embedUrl);
@@ -79,12 +84,24 @@ export function LinkedInUpdate({
           </div>
         ) : (
           <div className="rounded-xl border border-dashed border-gray-300 bg-gray-50 px-6 py-10 text-center">
-            <span
-              className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-white text-gray-300"
-              aria-hidden="true"
-            >
-              <i className="fa-brands fa-linkedin text-xl" />
-            </span>
+            {logo ? (
+              <div className="mx-auto flex h-28 w-28 items-center justify-center rounded-2xl border border-gray-200 bg-white p-3">
+                <Image
+                  src={logo}
+                  alt="Partner logo"
+                  width={112}
+                  height={112}
+                  className="h-full w-full object-contain"
+                />
+              </div>
+            ) : (
+              <span
+                className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-white text-gray-300"
+                aria-hidden="true"
+              >
+                <i className="fa-brands fa-linkedin text-xl" />
+              </span>
+            )}
             <p className="mt-4 text-sm font-bold text-gray-700">
               Partnership announcement pending
             </p>

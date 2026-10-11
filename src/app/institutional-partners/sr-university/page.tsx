@@ -151,6 +151,7 @@ export default function SrUniversityPartnerPage() {
           <LinkedInUpdate
             postUrl={srUniversity.linkedinPost}
             embedUrl={srUniversity.linkedinEmbed}
+            logo={srUniversity.logo}
           />
         </Reveal>
       </section>
