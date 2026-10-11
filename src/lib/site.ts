@@ -341,8 +341,11 @@ export const srUniversity = {
     "SR University is a private university in Warangal, Telangana, published by Next360 as an institutional partner for academic and industry collaboration.",
   location: "Warangal, Telangana, India",
   website: "https://sru.edu.in",
-  /* Detailed partnership description. Empty -> formatted placeholder. */
-  about: "",
+  /* Image shown beside the description in the About block. */
+  image: "/images/sru.jpg",
+  /* Confirmed partnership description, owner-supplied 2026-10-11. */
+  about:
+    "Next360 Organic Products Private Limited, Hyderabad, and SR University, Warangal, Telangana, are establishing a collaborative framework to promote academic engagement, research, professional development, and industry\u2013academia cooperation.\n\nThe MoU outlines opportunities for student internships, faculty development, joint research, curriculum development, academic events, and knowledge sharing, subject to mutual agreement.",
   /*
     Official LinkedIn post permalink for the announcement. Empty -> the
     section renders a placeholder with a config hint. When set, the section
