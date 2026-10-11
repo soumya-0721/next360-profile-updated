@@ -34,6 +34,12 @@ export const SEO_ROUTES: Record<string, SeoEntry> = {
     description: SHORT_DESCRIPTION,
     keywords: SEO_KEYWORDS,
   },
+  "/institutional-partners/sr-university": {
+    title: "Institutional Partner",
+    description:
+      "Next360's institutional partnership with SR University, a private university in Warangal, Telangana. Read the partner profile and official update. Learn more.",
+    keywords: SEO_KEYWORDS,
+  },
   "/organic": {
     title: "Next360 Organic",
     description: SHORT_DESCRIPTION,

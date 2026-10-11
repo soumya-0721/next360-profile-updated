@@ -3,12 +3,14 @@ import Link from "next/link";
 
 import { CeoProfile } from "@/components/ceo-profile";
 import { HeroPortrait } from "@/components/hero-portrait";
+import { InstitutionalPartnerLogos } from "@/components/institutional-partners";
 import { Reveal } from "@/components/reveal";
 import { SectionLabel, SectionTitle } from "@/components/ui";
 import {
   capabilityLists,
   collaborators,
   company,
+  institutionalPartnerNote,
   mentorship,
   panelMembers,
   photos,
@@ -568,6 +570,20 @@ export default function Home() {
               ))}
             </ul>
           </div>
+        </Reveal>
+      </section>
+
+      {/* Institutional Partners: logo-only gallery, directly below Strategic
+          Collaborators so the navbar link can jump straight to it. */}
+      <section id="institutional-partner" className="mx-auto max-w-7xl scroll-mt-28 px-6 pb-20">
+        <Reveal>
+          <SectionLabel label="Institutional Partners" />
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-gray-600">
+            {institutionalPartnerNote}
+          </p>
+        </Reveal>
+        <Reveal delay={60}>
+          <InstitutionalPartnerLogos />
         </Reveal>
       </section>
 

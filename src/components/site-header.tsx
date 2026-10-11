@@ -9,6 +9,7 @@ const primaryNav = [
   { href: "/it-services", label: "IT Services" },
   { href: "/organic", label: "Next360 Organic" },
   { href: "/projects", label: "Projects" },
+  { href: "/#institutional-partner", label: "Institutional Partner" },
 ];
 
 const secondaryNav = [
@@ -23,6 +24,7 @@ const mobileNav = [
   { href: "/it-services", label: "IT Services" },
   { href: "/organic", label: "Next360 Organic" },
   { href: "/projects", label: "Projects" },
+  { href: "/#institutional-partner", label: "Institutional Partner" },
   { href: "/slick", label: "SLICK Technologies" },
   { href: "/capabilities", label: "Capabilities" },
   { href: "/contact", label: "Contact" },
@@ -65,7 +67,7 @@ export function SiteHeader() {
           />
         </Link>
 
-        <nav className="hidden items-center gap-8 text-sm font-medium text-gray-600 md:flex">
+        <nav className="hidden items-center gap-6 text-sm font-medium text-gray-600 lg:flex xl:gap-8">
           {primaryNav.map((item) => (
             <Link
               key={item.href}
@@ -84,7 +86,7 @@ export function SiteHeader() {
           </Link>
         </nav>
 
-        <div className="hidden items-center gap-4 md:flex">
+        <div className="hidden items-center gap-4 lg:flex">
           {secondaryNav.map((item) => (
             <Link
               key={item.href}
@@ -102,7 +104,7 @@ export function SiteHeader() {
           aria-controls="mobile-menu"
           aria-label={open ? "Close menu" : "Open menu"}
           onClick={() => setOpen((value) => !value)}
-          className="text-gray-800 focus:outline-none md:hidden"
+          className="text-gray-800 focus:outline-none lg:hidden"
         >
           <span className="sr-only">Menu</span>
           <i
@@ -116,7 +118,7 @@ export function SiteHeader() {
 
       <div
         id="mobile-menu"
-        className={`absolute left-4 right-4 top-20 z-40 rounded-2xl bg-white p-6 shadow-xl transition-all duration-300 ease-smooth md:hidden ${
+        className={`absolute left-4 right-4 top-20 z-40 rounded-2xl bg-white p-6 shadow-xl transition-all duration-300 ease-smooth lg:hidden ${
           open ? "visible translate-y-0 scale-100 opacity-100" : "invisible pointer-events-none -translate-y-2 scale-[0.97] opacity-0"
         }`}
       >
