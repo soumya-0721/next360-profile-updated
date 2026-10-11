@@ -347,13 +347,13 @@ export const srUniversity = {
   about:
     "Next360 Organic Products Private Limited, Hyderabad, and SR University, Warangal, Telangana, are establishing a collaborative framework to promote academic engagement, research, professional development, and industry\u2013academia cooperation.\n\nThe MoU outlines opportunities for student internships, faculty development, joint research, curriculum development, academic events, and knowledge sharing, subject to mutual agreement.",
   /*
-    Official LinkedIn post permalink for the announcement. Empty -> the
-    section renders a placeholder with a config hint. When set, the section
-    shows the post; set `linkedinEmbed` as well to render LinkedIn's iframe
-    embed, otherwise a clean preview with a View on LinkedIn link is shown.
+    Official LinkedIn post permalink for the MoU announcement. The section
+    renders LinkedIn's iframe embed below, with a View on LinkedIn fallback
+    link kept visible in case the embed is blocked.
   */
-  linkedinPost: "",
-  linkedinEmbed: "",
+  linkedinPost: "https://lnkd.in/p/dQCChZuB",
+  linkedinEmbed:
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7513980930588540928",
 };
 
 export const leadership = [

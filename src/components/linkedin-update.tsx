@@ -48,17 +48,29 @@ export function LinkedInUpdate({
 
       <div className="p-8">
         {hasEmbed ? (
-          <div
-            className="relative w-full overflow-hidden rounded-xl"
-            style={{ paddingBottom: "125%" }}
-          >
-            <iframe
-              src={embedUrl}
-              title="Next360 and SR University partnership post on LinkedIn"
-              className="absolute inset-0 h-full w-full"
-              loading="lazy"
-              allowFullScreen
-            />
+          <div>
+            <div
+              className="relative w-full overflow-hidden rounded-xl"
+              style={{ paddingBottom: "125%" }}
+            >
+              <iframe
+                src={embedUrl}
+                title="Next360 and SR University partnership post on LinkedIn"
+                className="absolute inset-0 h-full w-full"
+                loading="lazy"
+                allowFullScreen
+              />
+            </div>
+            <p className="mt-4 text-center text-sm leading-relaxed text-gray-600">
+              <a
+                href={postUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-[#0a66c2] hover:underline"
+              >
+                View the Partnership Announcement on LinkedIn
+              </a>
+            </p>
           </div>
         ) : hasPost ? (
           <div className="flex flex-col items-center gap-4 rounded-xl border border-gray-200 bg-gray-50 px-6 py-10 text-center">

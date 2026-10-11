@@ -153,8 +153,8 @@ export default function SrUniversityPartnerPage() {
             Partnership Announcement.
           </SectionTitle>
           <p className="mt-4 max-w-2xl text-sm leading-relaxed text-gray-600">
-            The official announcement of the partnership from Next360 or SR
-            University.
+            The official announcement from Next360 India about the Memorandum of
+            Understanding signed with SR University, Warangal.
           </p>
         </Reveal>
         <Reveal delay={80} className="mt-6">
