@@ -62,7 +62,7 @@ export function CeoProfile() {
                 href="https://samhithreddysangam.portfolio.next360.in/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group mt-3 inline-flex items-center gap-2 text-base font-bold text-gray-900 underline-offset-[6px] transition-colors duration-300 ease-gentle hover:text-brand-green-ink hover:underline"
+                className="group mt-3 hidden items-center gap-2 text-base font-bold text-gray-900 underline-offset-[6px] transition-colors duration-300 ease-gentle hover:text-brand-green-ink hover:underline"
               >
                 <span>View Portfolio</span>
                 <i
@@ -73,9 +73,18 @@ export function CeoProfile() {
                   &#8212; opens Samhith Reddy Sangam’s personal portfolio in a new tab
                 </span>
               </a>
-              <p className="mt-2 text-[13px] text-gray-400">
-                samhithreddysangam.portfolio.next360.in
-              </p>
+              <a
+                href="https://samhithreddysangam.next360.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group mt-3 inline-flex items-center gap-2 text-base font-bold text-gray-900 underline-offset-[6px] transition-colors duration-300 ease-gentle hover:text-brand-green-ink hover:underline"
+              >
+                <span>samhithreddysangam.next360.in</span>
+                <i
+                  className="fa-solid fa-arrow-up-right-from-square text-xs text-brand-green-ink transition-transform duration-300 ease-gentle group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                  aria-hidden="true"
+                />
+              </a>
             </div>
           </div>
         </div>
