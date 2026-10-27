@@ -366,7 +366,7 @@ export const leadership = [
     /* Background-removed version of `photo`, used in the hero only. The
        leadership section always renders `photo` untouched. */
     cutout: "/images/leadership/ceo-samhith-cutout.png",
-    portfolio: "https://samhithreddysangam.portfolio.next360.in/",
+    portfolio: "https://samhithreddysangam.next360.in/",
   },
 ] as const;
 

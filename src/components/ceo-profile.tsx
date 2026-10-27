@@ -59,21 +59,6 @@ export function CeoProfile() {
                 CEO Portfolio
               </p>
               <a
-                href="https://samhithreddysangam.portfolio.next360.in/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group mt-3 hidden items-center gap-2 text-base font-bold text-gray-900 underline-offset-[6px] transition-colors duration-300 ease-gentle hover:text-brand-green-ink hover:underline"
-              >
-                <span>View Portfolio</span>
-                <i
-                  className="fa-solid fa-arrow-up-right-from-square text-xs text-brand-green-ink transition-transform duration-300 ease-gentle group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-                  aria-hidden="true"
-                />
-                <span className="sr-only">
-                  &#8212; opens Samhith Reddy Sangam’s personal portfolio in a new tab
-                </span>
-              </a>
-              <a
                 href="https://samhithreddysangam.next360.in/"
                 target="_blank"
                 rel="noopener noreferrer"
